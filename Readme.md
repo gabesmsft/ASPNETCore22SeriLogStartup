@@ -1,0 +1,2 @@
+For ASP.NET Core 2.2 apps that can't take advantage of .NET Core 3.x startup logging, you can use SeriLogger as a workaround to log startup events to a separate file.
+This sample was put together to work around an issue where we needed timestamps of events in startup, but stdout logging doesn't log timestamps
